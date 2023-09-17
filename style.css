@@ -1,0 +1,84 @@
+
+.mynav{position:fixed;top:0px;width:100%;background-color: black;padding-right: 5%;}
+.face{width:55px}
+.cover{background-image: url("media/23-09-01-21-46-33-653_deco.jpg")
+;width:100%
+;height:100vh
+;background-position: center;
+;background-size:cover 
+;}
+
+.hi{font-family:Inconsolata;font-size: 110px;padding-top: 12%;margin-bottom: -1%;}
+.p1{font-family: 'Kanit';color:white;font-size: 60px;font-weight: 900;}
+.dream{color:aliceblue;font-family: 'Kanit';font-size:40px}
+.programmer{font-family: 'Kanit';color:white;font-size:50px;font-weight: 1000}
+.quote{color:white;font-size:20px;float:right}
+
+.hwn{width:30%;}
+.pkp{width:47%}
+.pm{width:49%}
+
+.school{flex:1;display:flex;padding:50px 0;background-color:rgb(15, 14, 14);color:rgb(255, 251, 251);font-family: 'Kanit'}
+.schoolflex{flex:1;display:flex;justify-content: space-evenly;align-items: center;}
+/*.flex-1{padding:50px 0;flex:1;display:flex;align-content: center;flex-direction: column;}*/
+.anb,.pt,.mty{align-items: center;text-align: center;}
+.anb,.pt,.mty{width:280px;height:230px;padding:20px 20px}
+
+.edu{font-size:40px;padding-left: 45%;margin-bottom: -1px;color:aliceblue }
+.p1k{font-size: 40px;padding-left:47%;margin-bottom: -1px;color:aliceblue}
+
+.topic{background-color: rgb(14, 14, 14);font-family: 'Source Code Pro', monospace;padding-top: 50px;}
+.topics{background-color: rgb(19, 19, 19);font-family: 'Source Code Pro', monospace;padding-top: 50px;}
+.topicp{background-color: rgb(33, 33, 33);font-family: 'Source Code Pro', monospace;padding-top: 50px;}
+
+
+.skill{flex:1;padding:50px 0;background-color: rgb(19, 19, 19);display:flex;color:aliceblue;font-family: 'Kanit'}
+.skillflex{display:flex;justify-content:space-evenly;align-items: center;}
+
+.clogo{width:150px}
+.plogo{width:150px;}
+.hlogo{width:150px}
+.python{align-items: center;text-align: center}
+.html{align-items: center;text-align: center;}
+.css{align-items: center;text-align: center;}
+.python,.html,.css{width:350px;height:280px;padding:20px 20px;background-color: rgb(26, 26, 26);border-radius: 20px;
+    ;transform-origin: center;transition-property:transform ;transition-duration: 0.2s ;}
+
+.skill2{padding:50px 0;background-color: rgb(19, 19, 19);color:aliceblue;font-family: 'Kanit';padding-top: 8px;}
+.skillflex2{display:flex;justify-content:space-evenly;align-items: center;}
+
+.reactlogo{width:130px}
+.jslogo{width:150px}
+.capcutlogo{width:120px}
+
+.js,.react,.capcut{width:350px;height:280px;padding:20px 20px;background-color: rgb(26, 26, 26);
+    align-items: center;text-align: center;border-radius: 20px;;transform-origin: center;transition-property:transform ;transition-duration: 0.2s;}
+.xd1{padding-top:20px}
+
+
+
+
+.css:hover{transform:scale(1.1);}
+.python:hover{transform:scale(1.1);}
+.html:hover{transform:scale(1.1);}
+.js:hover{transform:scale(1.1);}
+.react:hover{transform:scale(1.1);}
+.capcut:hover{transform:scale(1.1);}
+
+.mynav a{
+    float: right;
+    padding:30px 30px;
+    color:white;
+    text-decoration: none;
+    font-weight: 500;}
+
+.project{background-color: rgb(32, 32, 32);}
+.pro{display:grid;grid-template-columns:1fr 1fr;padding-top: 50px;}
+.pimg{width:270px}
+.pyout{padding-top: 43px;}
+.pyout2{padding-left:130px;margin-top:5px}
+.dv{font-weight: 900;font-size: 50px;color:white}
+.dvf{font-size:17px;color:white}
+.gitdata a{padding:25px 50px;background-color: rgb(0, 0, 0);border-radius: 20px;text-decoration: none;color: rgb(255, 255, 255);}
+.gitdata{margin-top: 30px;}
+.cat{width:20px}
