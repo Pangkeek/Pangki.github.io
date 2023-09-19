@@ -83,5 +83,13 @@
 .gitdata{margin-top: 30px;}
 .cat{width:20px}
 
-.hidden{opacity:0;transition:all 1s ;}
-.show{opacity:1}
+.hidden{opacity:0;transition:all 1s;transform:translatex(-100%)}
+.show{opacity:1;transform:translatex(0%)}
+
+.stack:nth-child(2){transition-delay: 200ms}
+.stack:nth-child(3){transition-delay: 400ms}
+.stack:nth-child(4){transition-delay: 600ms}
+
+.stack:nth-child(5){transition-delay: 200ms}
+.stack:nth-child(6){transition-delay: 400ms}
+.stack:nth-child(7){transition-delay: 600ms}
