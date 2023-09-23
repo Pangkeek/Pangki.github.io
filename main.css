@@ -1,6 +1,24 @@
 
-.mynav{position:fixed;top:0px;width:100%;background-color: black;padding-right: 5%;}
-.face{width:55px}
+.mynav{position:fixed;top:0px;width:100%;height:80px;background-color: rgb(0, 0, 0,0.5)
+    ;padding-right: 5%;z-index: 9999;
+    ;}
+.menu{
+    display:flex;
+    float: right;
+    list-style-type: none;
+    justify-content: space-around;
+    padding:30px 30px;
+    color:rgb(255, 255, 255,1);
+    text-decoration: none;
+    font-weight: 500;}
+.navitem{margin-left:40px;opacity: 100%;}
+.menu button:hover{color:rgb(63, 212, 34);transform: scale(1.2);transition-duration: 0.2s;}
+.click1{background:none;border:none;color:rgb(255, 255, 255,1)}
+.click2{background:none;border:none;color:rgb(255, 255, 255,1)}
+.click3{background:none;border:none;color:rgb(255, 255, 255,1)}
+.click4{background:none;border:none;color:rgb(255, 255, 255,1)}
+
+.face{width:55px;margin-left:10%}
 .cover{background-image: url("media/23-09-01-21-46-33-653_deco.jpg")
 ;width:100%
 ;height:100vh
@@ -55,23 +73,6 @@
     align-items: center;text-align: center;border-radius: 20px;;transform-origin: center;transition-property:transform ;transition-duration: 0.2s;}
 .xd1{padding-top:20px}
 
-
-
-
-.css:hover{transform:scale(1.1);}
-.python:hover{transform:scale(1.1);}
-.html:hover{transform:scale(1.1);}
-.js:hover{transform:scale(1.1);}
-.react:hover{transform:scale(1.1);}
-.capcut:hover{transform:scale(1.1);}
-
-.mynav a{
-    float: right;
-    padding:30px 30px;
-    color:white;
-    text-decoration: none;
-    font-weight: 500;}
-
 .project{background-color: rgb(32, 32, 32);}
 .pro{display:grid;grid-template-columns:1fr 1fr;padding-top: 50px;}
 .pimg{width:270px}
@@ -79,8 +80,9 @@
 .pyout2{padding-left:130px;margin-top:5px}
 .dv{font-weight: 900;font-size: 50px;color:white}
 .dvf{font-size:17px;color:white}
-.gitdata a{padding:25px 50px;background-color: rgb(0, 0, 0);border-radius: 20px;text-decoration: none;color: rgb(255, 255, 255);}
+.gitdata a{padding:25px 50px;background-color: rgb(0, 0, 0);border-radius: 20px;text-decoration: none;color: rgb(255, 255, 255);transition: all 0.7s;}
 .gitdata{margin-top: 30px;}
+.gitdata a:hover{background-color: rgb(0, 168, 8);padding:30px 55px}
 .cat{width:20px}
 
 .hidden{opacity:0;transition:all 1s;transform:translatex(-100%)}
