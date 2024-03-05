@@ -1,4 +1,4 @@
 # Pangki.github.io 
 Just my portfolio website :P
 
-not finished yet
+https://pangkeek.github.io/Pangki.github.io/
